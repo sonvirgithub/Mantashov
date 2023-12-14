@@ -1,0 +1,1 @@
+export { fetchSpeakersData } from "./fetchSpeakersData";

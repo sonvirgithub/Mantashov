@@ -1,0 +1,55 @@
+.list-items-container {
+  overflow-x: scroll;
+  display: flex;
+  overflow-y: hidden;
+}
+
+.list-items-container::-webkit-scrollbar {
+  display: none;
+}
+
+.list-items-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.eventsList {
+  margin-left: 39px;
+  margin-top: 60px;
+}
+
+.membersList {
+  margin-left: 41px;
+  margin-top: 60px;
+}
+
+.storiesList {
+  margin-left: 24%;
+  margin-top: 60px;
+}
+
+.speakersList {
+  margin-left: 0;
+  margin-top: 40px;
+}
+
+.newsList {
+  margin-left: 100px;
+  margin-top: 60px;
+}
+.latestNewsList {
+  margin-top: 60px;
+  margin-left: 110px;
+}
+@media only screen and (min-width: 1025px) and (max-width: 1919px) {
+  .eventsList {
+    margin-top: 3%;
+  }
+  .membersList {
+    margin-top: 3%;
+  }
+  .arrows {
+    height: 1.8vw;
+    width: 1.8vw;
+  }
+}

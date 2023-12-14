@@ -1,0 +1,71 @@
+.contacts-header:lang(am) {
+  font-family: Montserratarm-Bold;
+}
+.contacts-header:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.contacts-header:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.contacts-text:lang(am) {
+  font-family: Montserratarm-Regular;
+}
+.contacts-text:lang(en) {
+  font-family: Helvetica-Neue-Regular;
+}
+.contacts-text:lang(ru) {
+  font-family: "Helvetica-Neue-Regular", Arial, sans-serif;
+}
+
+.contacts-page-container {
+  background: #f5f5f7;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.contacts-page-content {
+  padding: 9.2vw 0 6.25vw 0;
+}
+
+.contacts-header {
+  font-size: 3.2vw;
+  line-height: 4vw;
+}
+
+.contacts-text {
+  font-size: 1vw;
+  line-height: 1.4vw;
+  padding: 20px 23% 20px 23%;
+}
+
+.contacts-header,
+.contacts-text {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contacts-page-content {
+    padding: 13.3vw 4.8vw 27.8vw 4.8vw;
+  }
+
+  .contacts-header {
+    font-size: 8.7vw;
+    line-height: 10.4vw;
+  }
+
+  .contacts-text {
+    font-size: 4.5vw;
+    line-height: 6vw;
+    padding: 20px 2% 0 2%;
+  }
+
+  .contacts-header:lang(am) {
+    font-size: 8vw;
+  }
+  .contacts-text:lang(am) {
+    font-size: 4vw;
+  }
+}

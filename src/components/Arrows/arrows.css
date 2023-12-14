@@ -1,0 +1,15 @@
+
+
+.right-arr {
+  margin-left: 20px;
+}
+@media only screen and (min-width: 1025px) and (max-width: 1919px) {
+  .arrow-icon {
+    height: 1.5vw;
+    width: 1.5vw;
+  }
+
+  .right-arr {
+    margin-left: 1.2%;
+  }
+}

@@ -1,0 +1,21 @@
+.privacy-page-container {
+  padding: 154px 99px 124px 160px;
+  /* 13,5% */
+}
+
+.privacy-header {
+  font-size: 64px;
+  line-height: 115px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .privacy-page-container {
+    padding: 54px 15px 124px 15px;
+  }
+
+  .privacy-header {
+    font-size: 36px;
+    line-height: 43px;
+  }
+}

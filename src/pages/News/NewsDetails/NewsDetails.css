@@ -1,0 +1,241 @@
+.news-details-title:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+}
+.news-details-title:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+
+.news-details-title:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.desc-one-news-details:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+}
+.desc-one-news-details:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+
+.desc-one-news-details:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+.text2-new-details:lang(am) {
+  font-family: Montserratarm-Medium;
+}
+.text2-new-details:lang(en) {
+  font-family: Helvetica-Neue-Medium;
+}
+.text2-new-details:lang(ru) {
+  font-family: "Helvetica-Neue-Medium", Arial, sans-serif;
+}
+.view-archive-news-details:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+}
+.view-archive-news-details:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+
+.view-archive-news-details:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.news-details-content {
+  padding: 11.1vh 18.22vw;
+}
+
+.news-details {
+  margin-top: 8vh;
+}
+
+.news-details-title-container {
+  padding: 0 10.4vw 5.5vh 10.4vw;
+  text-align: left;
+}
+
+.news-details-text {
+  font-size: 1vw;
+  line-height: 1.2vw;
+  color: #787878;
+  text-align: left;
+  padding: 0 10.4vw 0 10.4vw;
+}
+
+.news-details-title {
+  font-size: 2.2vw;
+  line-height: 2.7vw;
+  word-break: break-word;
+}
+
+.link-video {
+  width: 100%;
+  height: 39vw;
+  margin: 5.5vh auto;
+  display: block;
+}
+
+.border-top {
+  border-top: 2px solid #f5f5f5 !important;
+  margin-top: 5.5vh !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.latest-news-details {
+  font-size: 2vh;
+  line-height: 2.4vh;
+  padding: 0 0 5.5vh 3.1vw;
+}
+
+.latest-news {
+  margin: 5.5vh 10.4vw 0 10.4vw;
+  position: relative;
+}
+
+.view-archive-news-details {
+  line-height: 22px;
+  color: #b9b9b9;
+  position: absolute;
+  left: 200px;
+  bottom: 8px;
+  cursor: pointer;
+}
+
+.news-carousel {
+  margin: 4.2vw 0 2vw 0;
+}
+
+.news-carousel img {
+  width: 100% !important;
+  height: 35vw !important;
+}
+
+.news-carousel img {
+  width: 100% !important;
+  height: 40.4vw !important;
+
+  border-radius: 15px !important;
+  -webkit-border-radius: 15px !important;
+  -moz-border-radius: 15px !important;
+  border-radius: 15px !important;
+  -khtml-border-radius: 15px !important;
+}
+
+.news-carousel .carousel-slider {
+  border-radius: 15px !important;
+  overflow: hidden !important;
+  -webkit-border-radius: 15px !important;
+  -moz-border-radius: 15px !important;
+  border-radius: 15px !important;
+  -khtml-border-radius: 15px !important;
+}
+
+.news-info-for-share-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 4.1vw;
+}
+
+.news-sharing-info {
+  padding-top: 2vw;
+  border-top: 2px solid #d9d9d9;
+}
+.video-of-details {
+  margin-bottom: 40px;
+}
+/* .smart-bussiness {
+  color: #edb345;
+  padding-top: 10px;
+} */
+
+/* .date-news-details {
+  line-height: 16px;
+  color: #848484;
+  padding-top: 10px;
+} */
+
+@media screen and (max-width: 1024px) {
+  .news-details-content {
+    padding: 6.7vh 4.8vw;
+  }
+
+  .news-details-title-container {
+    padding: 0;
+    text-align: left;
+  }
+
+  .news-details {
+    margin-top: 0px;
+  }
+
+  .news-details-title {
+    padding: 0 4.8vw 5.5vh 4.8vw;
+  }
+
+  .news-details-text {
+    padding: 0 4.8vw 0 4.8vw;
+  }
+
+  .news-details-text {
+    font-size: 3.9vw;
+    line-height: 4.6vw;
+  }
+
+  .news-details-title {
+    font-size: 6.7vw;
+    line-height: 7.9vw;
+  }
+
+  .link-video {
+    width: 100%;
+    height: 53vw;
+    margin: 5.5vh auto;
+  }
+
+  .border-top {
+    margin-top: 5.5vh !important;
+  }
+
+  .latest-news-details {
+    font-size: 2vh;
+    line-height: 2.4vh;
+    padding: 0 0 5.5vh 3.1vw;
+  }
+
+  .latest-news {
+    margin: 5.5vh 10.4vw 0 10.4vw;
+  }
+
+  .view-archive-news-details {
+    line-height: 22px;
+    bottom: 8px;
+  }
+
+  .news-carousel img {
+    height: 72.5vw !important;
+  }
+  .news-sharing-info {
+    padding-top: 7.2vw;
+    width: 100%;
+  }
+  .news-info-for-share-container {
+    padding: 14.4vw 4.8vw 0 4.8vw;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 1024px) {
+  .news-details-text {
+    font-size: 2vw;
+    line-height: 3.6vw;
+  }
+  .share-content-for-news {
+    padding: 3.2vw 4.2vw 5.1vw 4.2vw;
+  }
+  .news-details-title {
+    font-size: 4.7vw;
+    line-height: 5.9vw;
+  }
+  .news-carousel img,
+  .news-video-links {
+    height: 40.4vw !important;
+  }
+}

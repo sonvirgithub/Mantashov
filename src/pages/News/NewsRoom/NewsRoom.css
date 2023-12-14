@@ -1,0 +1,140 @@
+.newsroom-header:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+}
+.newsroom-header:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.newsroom-header:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.view-achive-text:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+}
+.view-achive-text:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.view-achive-text:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.newsroom-container {
+  /* padding: 120px 0 196px 90px; */
+  padding: 3% 0 18.14% 5%;
+}
+
+.header-and-search {
+  margin-right: 5%;
+  margin-bottom: 5.5%;
+}
+
+.newsroom-header {
+  line-height: 75.7px;
+}
+
+.news-description-container {
+  margin-left: 12.7vw;
+  margin-top: -28px;
+}
+
+.news-description-text {
+  color: #b9b9b9;
+  line-height: 21.98px;
+}
+
+.view-achive-text {
+  margin-left: 20px;
+  line-height: 22px;
+  color: #676767;
+  cursor: pointer;
+}
+@media only screen and (min-width: 1025px) and (max-width: 1500px) {
+  .news-description-container {
+    margin-top: -24px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .newsroom-container {
+    padding: 7% 30px 5% 30px;
+  }
+
+  .news-list-container {
+    margin-bottom: 40px;
+  }
+
+  .searchbar-container {
+    display: none;
+  }
+
+  .newsList {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .newsroom-header {
+    font-size: 36px !important;
+    line-height: 42.96px;
+  }
+
+  .news-description-text {
+    display: none;
+  }
+
+  .news-description-container {
+    margin-left: 100px;
+  }
+
+  .view-achive-text {
+    display: block;
+    color: #b9b9b9;
+    font-size: 16px !important;
+    line-height: 19px;
+  }
+
+  .view-achive-text:first-letter {
+    text-transform: uppercase;
+  }
+  .news-list-component {
+    margin-top: 15%;
+    width: 85.7vw;
+  }
+}
+@media only screen and (min-width: 1120px) and (max-width: 1919px) {
+  .newsroom-container {
+    padding: 7% 0 40px 5%;
+  }
+
+  .newsroom-header {
+    font-size: 3.3vw !important;
+    line-height: 50px;
+  }
+
+  .newsList {
+    margin-top: 30px;
+  }
+
+  .news-description-text {
+    line-height: 2vw;
+    font-size: 1vw !important;
+  }
+
+  /* .view-achive-text {
+    margin-left: 20px;
+    line-height: 1vw;
+    font-size: 0.95vw !important;
+  } */
+
+  .card-newsRoom {
+    width: 355px !important;
+    max-height: 520px !important;
+  }
+
+  .card-newsRoom-img {
+    width: 100%;
+  }
+  .card-newsRoom-right-arrow {
+    width: 8%;
+    right: 5% !important;
+  }
+}

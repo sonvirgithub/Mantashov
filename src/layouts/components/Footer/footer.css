@@ -1,0 +1,454 @@
+.home-text:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+}
+.home-text:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.home-text:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+.section-text:lang(am) {
+  font-family: Montserratarm-Medium;
+}
+.section-text:lang(en) {
+  font-family: Helvetica-Neue-Medium;
+}
+.section-text:lang(ru) {
+  font-family: "Helvetica-Neue-Medium", Arial, sans-serif;
+}
+.address-city:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+}
+.address-city:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.address-city:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+.contacts-section-text:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+  width: 15vw;
+}
+.contacts-section-text:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.contacts-section-text:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.exit-bottom-arrow {
+  vertical-align: sub;
+}
+
+.cookies-and-copyright:lang(am) {
+  font-family: Montserratarm-Medium;
+  font-size: 0.95vw;
+}
+.cookies-and-copyright:lang(en) {
+  font-family: Helvetica-Neue-Medium;
+}
+.cookies-and-copyright:lang(ru) {
+  font-family: "Helvetica-Neue-Medium", Arial, sans-serif;
+}
+
+.join-text:lang(am) {
+  font-family: Montserratarm-Medium;
+}
+.join-text:lang(en) {
+  font-family: Helvetica-Neue-Medium;
+}
+.join-text:lang(ru) {
+  font-family: "Helvetica-Neue-Medium", Arial, sans-serif;
+}
+.footer-container {
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  height: fit-content;
+  border-top: 1px solid #292929;
+  /* padding: 120px 388px 60px 387px; */
+  padding: 120px 20% 60px 20%;
+}
+.address-desc {
+  line-height: 20px;
+  height: 120px;
+  overflow: hidden;
+  /* white-space: nowrap; */
+  text-overflow: ellipsis;
+  width: 100%;
+}
+.footer-m-to-home {
+  display: flex;
+  height: fit-content;
+  align-items: center;
+}
+
+.footer-m-content {
+  background: #1b1b1b;
+  border-radius: 5px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.home-text {
+  line-height: 17px;
+  text-transform: lowercase;
+  font-size: 0.8vw !important;
+}
+
+.home-text::first-letter {
+  text-transform: uppercase;
+}
+
+.arrow-right,
+.home-text-container {
+  padding-left: 10px;
+}
+
+.section-header {
+  padding-bottom: 21px;
+}
+
+.section-text {
+  line-height: 20px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.mail {
+  padding-bottom: 5px;
+}
+
+.contacts-section-text {
+  line-height: 17px;
+  color: #c5c5c5;
+  padding-top: 20px;
+  width: 211px;
+}
+
+.first-address-container {
+  padding-top: 20px;
+}
+
+.address-city {
+  line-height: 17px;
+  color: #666666;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.losAngeles {
+  line-height: 17px;
+  padding-top: 5px;
+}
+
+.address-street {
+  width: 110px;
+}
+
+.address-street-losAngeles-text {
+  width: 165px;
+}
+
+.second-address-container {
+  padding-top: 42px;
+}
+
+.footer-links-container {
+  margin-top: 19.5%;
+  /* align-items: baseline; */
+}
+
+.cookies-and-copyright {
+  line-height: 17px;
+}
+
+.copyright-text {
+  color: #8a8a8a;
+  padding: 0 20px 0 20px;
+}
+
+.join-text {
+  line-height: 17px;
+}
+
+.language-cont {
+  margin-bottom: 2%;
+  margin-right: 100px;
+}
+
+.lang-text {
+  line-height: 17px;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+}
+
+.about-matashov-and-media {
+  display: flex;
+  width: 23vw;
+  justify-content: space-between;
+}
+
+.website-cookies-and-join {
+  display: flex;
+  justify-content: space-between;
+}
+
+.website-cookies-and-copyright {
+  display: flex;
+}
+
+.language-desktop {
+  display: block;
+}
+.language-mobile {
+  display: none;
+}
+.footer-language-container,
+.ul-className {
+  background: #000000;
+}
+.footer-language-container {
+  padding-left: 0px;
+}
+.ul-className {
+  padding: 5px 0 0 10px;
+  /* padding-left: 10px; */
+}
+@media only screen and (min-width: 200px) and (max-width: 1024px) {
+  .language-desktop {
+    display: none;
+  }
+  .language-mobile {
+    display: block;
+    margin-left: 11vw;
+  }
+  .footer-component {
+    display: block !important;
+  }
+  .website-cookies-and-copyright {
+    display: block;
+    width: 45vw;
+  }
+
+  .footer-container {
+    padding: 14.4% 14.4% 14% 14.4%;
+  }
+
+  .first-and-second-address {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .address-city {
+    padding-top: 10px !important;
+  }
+  .losAngeles {
+    padding-top: 0;
+  }
+
+  .about-matashov-and-media {
+    width: 68.5vw;
+    margin-top: 7.2%;
+  }
+  .section-text {
+    line-height: 3.4vw;
+    font-size: 2.8vw !important;
+  }
+  .home-text,
+  .section-header,
+  .contacts-section-text {
+    line-height: 3.4vw;
+    font-size: 2.8vw !important;
+  }
+
+  .contacts-section-text {
+    width: 58.8vw;
+  }
+
+  .contacts-our-address-section {
+    margin-top: 9.6%;
+  }
+
+  .address-city {
+    line-height: 2.8vw;
+    font-size: 2.4vw !important;
+  }
+  .address-street,
+  .address-street-losAngeles-text {
+    width: 30vw;
+  }
+
+  .footer-links-container {
+    flex-direction: column;
+  }
+
+  .website-cookies-and-join {
+    display: flex;
+    justify-content: unset;
+    position: relative;
+  }
+
+  .language-cont {
+    /* right: 0;
+    position: absolute;
+    margin-top: 6vw;
+    margin-right: 10.5vw; */
+
+    margin-top: 3.8vw;
+  }
+  .language-cont {
+    margin-right: 0;
+  }
+  .copyright-text {
+    width: 40.4vw;
+    padding: 7% 0 0 0;
+    /* padding: 0 !important; */
+  }
+  .cookies-and-copyright:lang(am) {
+    font-size: 2.4vw !important;
+  }
+  .cookies-and-copyright,
+  .lang-text,
+  .join-text {
+    line-height: 2.8vw;
+    font-size: 2.4vw !important;
+    height: fit-content;
+  }
+  .cookies-and-copyright,
+  .join-text {
+    padding-right: 15px;
+  }
+  .join-text:lang(am) {
+    padding-right: 30px;
+  }
+  .footer-links-container {
+    margin-top: 0;
+  }
+
+  .arrow-bottom-icon {
+    width: 2vw;
+    height: 2vw;
+  }
+  .display-flex-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+  }
+  .display-none {
+    display: none;
+  }
+  /* .ul-className {
+    background: #000000;
+  } */
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1290px) {
+  .footer-container {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .footer-links-container {
+    margin-top: 12.5%;
+  }
+
+  .ul-className {
+    width: 6vw;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1600px) {
+  .footer-container {
+    padding-left: 13%;
+    padding-right: 13%;
+  }
+
+  .footer-links-container {
+    margin-top: 12.5%;
+  }
+  .ul-className {
+    width: 6vw;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .arrow-bottom-icon {
+    width: 1.45vw;
+    height: 0.75vw;
+  }
+
+  .section-text {
+    font-size: 0.9vw !important;
+    line-height: 1.5vw;
+  }
+  .contacts-section-text {
+    font-size: 0.8vw !important;
+    width: 14vw;
+    line-height: 1vw;
+  }
+  .ul-className {
+    width: 6vw;
+  }
+  .display-none-min1024 {
+    display: none;
+  }
+  .footer-container {
+    padding-left: 13%;
+    padding-right: 13%;
+  }
+}
+.website-cookies-and-copyright {
+  padding-right: 8vw;
+}
+
+@media screen and (min-width: 1920px) {
+  .display-none-min1024 {
+    display: none;
+  }
+
+  .cookies-and-copyright,
+  .join-text {
+    font-size: 0.7vw !important;
+  }
+  .copyright-text {
+    padding: 0 2vw 0 2vw;
+  }
+  .lang-text-footer,
+  .address-city,
+  .lang-text {
+    font-size: 0.7vw !important;
+    line-height: 0.7vw !important;
+  }
+  .home-text:lang {
+    font-size: 0.95vw !important;
+    line-height: 1vw;
+  }
+  .address-street-losAngeles-text,
+  .address-street {
+    width: 10vw;
+    height: fit-content;
+  }
+  .footer-M {
+    font-size: 0.8vw !important;
+  }
+  .arrow-right,
+  .home-text-container {
+    padding-left: 5%;
+  }
+  .exit-bottom-arrow {
+    width: 1.5vw;
+  }
+  .first-address-container {
+    padding-top: 7%;
+  }
+  .second-address-container {
+    padding-top: 10%;
+  }
+}

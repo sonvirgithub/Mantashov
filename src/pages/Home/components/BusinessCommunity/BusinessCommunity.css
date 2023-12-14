@@ -1,0 +1,318 @@
+.business-comm-residents-header:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+}
+.business-comm-residents-header:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.business-comm-residents-header:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.residents-count:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+}
+.residents-count:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.residents-count:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.business-comm-residents-text:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+  font-size: 20px;
+}
+.business-comm-residents-text:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.business-comm-residents-text:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.who-is-residents-text:lang(am) {
+  font-family: Montserratarm-Regular;
+  font-size: 15px;
+}
+.who-is-residents-text:lang(en) {
+  font-family: Helvetica-Neue-Regular;
+}
+.who-is-residents-text:lang(ru) {
+  font-family: "Helvetica-Neue-Regular", Arial, sans-serif;
+}
+
+.business-community-page-container {
+  background: #f5f5f7;
+  height: fit-content;
+  padding: 8vw 18% 8.9vw 26%;
+}
+
+.business-comm-block-header {
+  padding: 0 23% 0 0;
+}
+
+.business-comm-residents-header,
+.residents-count {
+  font-size: 42px;
+  line-height: 51px;
+}
+
+.residents-count {
+  color: #6bcd66;
+}
+
+.business-comm-residents-text {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.who-is-residents-text-container {
+  width: 74%;
+  margin-top: 60px;
+  margin-left: 28px;
+}
+
+.who-is-residents-text {
+  line-height: 20px;
+  color: #c9c9c9;
+  /* font-family: Helvetica-Neue-Regular !important; */
+}
+
+.report-block-container {
+  width: 355px;
+  background: #1c1c1e;
+  width: 30%;
+  border-radius: 20px;
+  box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.1), 0px 20px 48px rgba(0, 0, 0, 0.3);
+
+  height: fit-content;
+  padding: 23px 18px 23px 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.report-container {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  height: fit-content;
+}
+
+.report-container > div {
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 1024px) {
+  .business-community-page-container {
+    padding: 13.5vw 9.7% 9.7vw 9.7%;
+  }
+
+  .business-comm-block-header {
+    padding: 0;
+  }
+
+  .business-comm-residents-header,
+  .residents-count {
+    font-size: 8.7vw;
+    line-height: 10.1vw;
+  }
+
+  .business-comm-residents-text {
+    font-size: 4.3vw;
+    line-height: 5vw;
+  }
+
+  .report-container {
+    margin-top: 60px;
+    display: flex;
+    height: fit-content;
+    flex-wrap: wrap;
+  }
+
+  .report-container > div:last-child {
+    margin: 0 20px 0 0;
+    width: 100%;
+  }
+
+  .report-block-container {
+    background: #1c1c1e;
+
+    border-radius: 20px;
+    box-shadow: 0px 8px 40px rgba(172, 143, 143, 0.1),
+      0px 20px 48px rgba(0, 0, 0, 0.3);
+    height: 140px;
+    padding: 23px 18px 23px 18px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .who-is-residents-text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  /* .white-seperator {
+    content: "";
+    height: 4.8vw;
+    background: #ffffff;
+    width: 100vw;
+  } */
+}
+
+@media only screen and (max-width: 300px) {
+  .report-container {
+    margin-top: 60px;
+    display: block;
+    height: fit-content;
+  }
+
+  .report-container > div {
+    width: 100%;
+  }
+
+  .report-container > div:nth-child(2n + 2) {
+    margin: 20px 0 20px 0;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .report-container > div:nth-child(3n - 1) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1919px) {
+  .report-container {
+    justify-content: unset !important;
+  }
+  .business-community-page-container {
+    /* padding: 155px 4% 307px 26%; */
+    padding-left: 26%;
+    padding-right: 4%;
+  }
+  .report-block-container {
+    width: 31%;
+    padding: 1.5% 1% 2% 2%;
+    border-radius: 14px;
+  }
+  .text-report {
+    font-size: 1vw !important;
+  }
+  .mln-report {
+    font-size: 1.15vw !important;
+  }
+
+  .report-container {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 700px) {
+  .business-community-page-container {
+    /* padding: 13.5vw 5% 9.7vw 5%; */
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .report-block-container {
+    width: 46%;
+    padding: 5% 5% 8% 5%;
+    border-radius: 20px;
+  }
+  .text-report {
+    font-size: 3.4vw !important;
+  }
+  .mln-report {
+    font-size: 4.3vw !important;
+  }
+  .report-container > div {
+    margin: 0 10px 10px 0;
+  }
+  .report-container > div:last-child {
+    margin: 0 10px 0 0;
+    /* width: 100%; */
+    width: 94%;
+  }
+  .count-in-report,
+  .text-in-report {
+    line-height: 4.4vw;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 900px) {
+  .business-community-page-container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .report-block-container {
+    width: 48%;
+    padding: 9% 5% 8% 5%;
+    border-radius: 20px;
+  }
+  .text-report {
+    font-size: 2.3vw !important;
+  }
+  .mln-report {
+    font-size: 2.5vw !important;
+  }
+  .report-container > div {
+    margin: 0 10px 10px 0;
+  }
+  .count-in-report,
+  .text-in-report {
+    line-height: 3.4vw;
+  }
+  .report-block-container {
+    height: 150px !important;
+    align-items: center;
+  }
+
+  .count-in-report,
+  .text-in-report {
+    line-height: 3.4vw !important;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1099px) {
+  .business-community-page-container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .report-block-container {
+    width: 47%;
+    padding: 7% 6% 10% 6%;
+    border-radius: 20px;
+  }
+  .text-report {
+    font-size: 2.3vw !important;
+  }
+  .mln-report {
+    font-size: 2.5vw !important;
+  }
+  .count-in-report,
+  .text-in-report {
+    line-height: 3vw;
+  }
+  .report-block-container {
+    height: 150px !important;
+    align-items: center;
+  }
+
+  .count-in-report,
+  .text-in-report {
+    line-height: 3.4vw !important;
+    padding-top: 8%;
+  }
+  .report-container > div {
+    margin: 0 20px 20px 0;
+  }
+  /* .report-container > div:nth-child(2n + 2) {
+    margin: 0 0 18px 18px;
+  } */
+
+  .report-container > div:last-child {
+    margin: 0 35px 0 0;
+    width: 100%;
+  }
+  .text-in-report {
+    width: 83% !important;
+    height: fit-content !important;
+  }
+}

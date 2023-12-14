@@ -1,0 +1,127 @@
+.who-is-header:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+  /* font-size: 2.6vw; */
+}
+.who-is-header:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.who-is-header:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.who-is-description:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+}
+.who-is-description:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.who-is-description:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.mantashov-for-page-container {
+  width: 100%;
+  height: fit-content;
+  padding: 245px 491px 221px 490px;
+  /* padding: 22.7vh 53.3vw 20.4vh 25.5vw; */
+}
+
+.mantashov-for-page-content {
+  display: flex;
+  justify-content: center;
+}
+
+.who-is-header {
+  font-size: 72px;
+  line-height: 87.91px;
+  width: 509px;
+  /* width: 26.5vw; */
+}
+
+.who-is-description {
+  color: #c4c4c4;
+  font-size: 28px;
+  line-height: 34.19px;
+  /* width: 359px; */
+  width: 27vw;
+  padding-top: 20px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 899px) {
+  .mantashov-for-page-container {
+    padding: 14% 10.86% 14% 9.6%;
+  }
+  .who-is-header {
+    font-size: 8.6vw;
+    line-height: 10.4vw;
+    width: 65.8vw;
+  }
+  .who-is-description {
+    font-size: 5vw;
+    line-height: 6vw;
+    width: 67.4vw;
+  }
+  .who-is-header:lang(am) {
+    font-size: 6.6vw;
+  }
+  .who-is-description:lang(am) {
+    font-size: 4vw;
+  }
+  .mantashov-for-page-content {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+  .mantashov-for-page-container {
+    padding: 14% 7.86% 14% 7.6%;
+  }
+  .who-is-header {
+    font-size: 3.2vw;
+    line-height: 6.6vw;
+    width: 43.8vw;
+  }
+  .who-is-description {
+    font-size: 3.2vw;
+    line-height: 5vw;
+    width: 46.4vw;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .mantashov-for-page-container {
+    padding: 12% 5% 14% 5%;
+  }
+  .who-is-header {
+    font-size: 4.2vw;
+    line-height: 5.6vw;
+    width: 43.8vw;
+  }
+  .who-is-description {
+    font-size: 3.2vw;
+    line-height: 5vw;
+    width: 50.4vw;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1919px) {
+  .mantashov-for-page-container {
+    padding: 22.6% 0 20% 0;
+  }
+  .who-is-header {
+    font-size: 3.6vw;
+    line-height: 4.3vw;
+    width: 25.45vw;
+  }
+  .who-is-description {
+    font-size: 1.5vw;
+    line-height: 2vw;
+    width: 27.95vw;
+  }
+  .mantashov-for-page-content {
+    display: flex;
+    width: 59vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

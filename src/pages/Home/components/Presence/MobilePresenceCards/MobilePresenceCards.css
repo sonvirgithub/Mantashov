@@ -1,0 +1,334 @@
+.more:lang(am) {
+    font-family: Montserratarm-Regular;
+}
+.more:lang(en) {
+    font-family: Helvetica-Neue-Regular;
+}
+
+.more:lang(ru) {
+    font-family: "Helvetica-Neue-Regular",Arial,sans-serif;
+}
+
+
+.more-desc-presence-card {
+    margin-top: 60px;
+    background: #0f0f0f;
+    border-radius: 20px;
+    padding: 5.7% 10.9% 1.87% 10.9%;
+    width: 1420px;
+    margin-left: 13%;
+    margin-right: 0;
+    visibility: visible;
+    animation-name: more-desc-of-presence-block-open;
+    z-index: 0;
+    animation-timing-function: ease-out;
+    animation-duration: 500ms;
+  }
+  
+  .more-presence-block-imgs {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+    max-width: fit-content;
+    overflow: hidden;
+  }
+  
+  .large-desc-presence-card {
+    margin-right: auto;
+    margin-left: auto;
+  
+    text-align: center;
+    line-height: 17px;
+    width: 1032px;
+    transition: opacity 400ms;
+    position: absolute;
+  }
+  
+  .desc-opacity {
+    opacity: 0;
+  }
+  
+  .desc-right {
+    right: 15%;
+  }
+  
+  .desc-left {
+    left: 13%;
+  }
+  
+  .close-icon-more-desc-presence-block {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    margin-top: 21px;
+  }
+  
+  @keyframes more-desc-of-presence-block-open {
+    0% {
+      width: 752px;
+      opacity: 0;
+      visibility: hidden;
+    }
+    100% {
+      width: 1420px;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  
+
+  
+  @keyframes more-desc-of-presence-block-closed {
+    0% {
+      width: 1420px;
+      opacity: 1;
+      visibility: visible;
+      background: rgba(0, 0, 0, 1);
+    }
+    100% {
+      width: 690px;
+      opacity: 1;
+      visibility: hidden;
+      background: rgba(0, 0, 0, 0);
+    }
+  }
+  
+  .more-presence-card-img-padding {
+    margin-right: 20px;
+  }
+  .more-desc-closed {
+    background: #0f0f0f;
+  }
+  .more-desc-presence-card2 {
+    padding: 5.7% 10.9% 1.87% 10.9%;
+    background: #0f0f0f;
+    width: 1420px;
+    position: absolute;
+    right: 13%;
+    margin-top: 60px;
+    animation-name: more-desc-of-presence-block-open2;
+    animation-timing-function: ease-out;
+    animation-duration: 500ms;
+    border-radius: 20px;
+  }
+  
+  @keyframes more-desc-of-presence-block-open2 {
+    0% {
+      width: 20vw;
+      opacity: 0;
+      visibility: hidden;
+    }
+    100% {
+      width: 70vw;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  
+  .more-desc-presence-closed-card2 {
+    height: 36.5vw;
+    padding: 5.7% 10.9% 1.87% 10.9%;
+    background: #0f0f0f;
+    width: 0vw;
+    position: absolute;
+    right: 13%;
+    margin-top: 60px;
+    animation-name: more-desc-of-presence-block-closed2;
+    animation-timing-function: ease-out;
+    animation-duration: 300ms;
+    border-radius: 20px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  @keyframes more-desc-of-presence-block-closed2 {
+    0% {
+      width: 70vw;
+      opacity: 1;
+      visibility: visible;
+      background: rgba(0, 0, 0, 1);
+    }
+    100% {
+      width: 32vw;
+      opacity: 1;
+      visibility: hidden;
+      background: rgba(0, 0, 0, 0);
+    }
+  }
+  
+  
+ 
+    
+    @media only screen and (min-width: 200px) and (max-width: 849px) {
+      .presence-card-right {
+        
+        margin-top: 67px;
+      }
+    
+      .desc-right {
+        right: 8%;
+      }
+      .more-desc-presence-card-mobile {
+        padding: 10.6% 3% 6% 5%;
+        border-radius: 20px;
+        width: 75vw;
+        background: #0F0F0F;
+        animation-name: more-desc-of-presence-block-open-mobile;
+        animation-timing-function: ease-out;
+        animation-duration: 700ms;
+        
+       
+      }
+    
+      @keyframes more-desc-of-presence-block-open-mobile {
+        0% {
+          opacity: 0;
+          visibility: hidden;
+        }
+        100% {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    
+      .more-presence-card-img1 {
+        height: 56vw;
+        width: 25vw;
+        object-fit: cover;
+        border-radius: 20px;
+      }
+      .more-presence-card-img2 {
+        height: 56vw;
+        width: 34vw;
+        object-fit: cover;
+        border-radius: 20px;
+      }
+      .more-presence-block-imgs {
+        overflow-x: scroll;
+        margin-top: 8% !important;
+      }
+    
+      .more-presence-block-imgs-margin-top {
+        margin-top: 16.4%;
+      }
+    
+      .more-presence-card-img-padding {
+        padding: 0;
+        margin-right: 20px;
+      }
+    
+      .more-presence-card-img3 {
+        height: 56vw;
+        width: 33vw;
+        object-fit: cover;
+        border-radius: 20px;
+      }
+      .more-presence-card-img4 {
+        height: 56vw;
+        width: 34vw;
+        object-fit: cover;
+        border-radius: 20px;
+      }
+      .large-desc-presence-card-mobile {
+        height: 30.2vw;
+        line-height: 3.4vw;
+        font-size: 2.8vw !important;
+        max-width: 67.8vw;
+        -webkit-line-clamp: 8;
+        z-index: -1;
+        transition: padding-top 600ms,opacity 600ms;
+        opacity: 1;
+        position: unset !important;
+        padding-top: 0;
+        text-align: center;
+      }
+    
+      .large-desc-margin-top-mobile {
+        padding-top: 50px;
+        opacity: 0;
+      }
+      .more-desc-closed-mobile {
+        padding: 10.6% 3% 6% 5%;
+        border-radius: 20px;
+        width: 75vw;
+        animation-name: more-desc-of-presence-block-closed-mobile;
+        animation-timing-function: ease-out;
+        animation-duration: 700ms;
+        display: block !important;
+        background: #0F0F0F;
+        opacity: 0;
+        visibility: hidden;
+       
+      }
+      @keyframes more-desc-of-presence-block-closed-mobile {
+        0% {
+          opacity: 1;
+          visibility: visible;
+        }
+        100% {
+          opacity: 0;
+          visibility: hidden;
+        }
+      }
+    
+      .more-desc-presence-card2 {
+        padding: 10.6% 3% 6% 5%;
+        border-radius: 20px;
+        width: 75vw;
+        
+        margin-right: 0;
+        height: auto;
+        animation-name: more-desc-of-presence-block-open;
+        animation-timing-function: ease-out;
+        animation-duration: 600ms;
+        
+        display: block !important;
+      }
+    
+      .more-desc-presence-card2 {
+        right: 13%;
+      }
+    
+      .desc-pos {
+        position: unset !important;
+      }
+    
+      .more-desc-presence-closed-card2 {
+        padding: 3.6% 3% 6% 5%;
+        border-radius: 20px;
+        width: 75vw;
+        margin-left: 11%;
+        margin-right: 0;
+        animation-name: more-desc-of-presence-block-closed2;
+        animation-timing-function: ease-out;
+        animation-duration: 600ms;
+        margin-top: 131%;
+        display: block !important;
+      }
+    
+      .more-desc-closed2 {
+        padding: 9.6% 7.2% 6% 7.2%;
+        background: #0f0f0f;
+        border-radius: 20px;
+        width: 75vw;
+        margin-left: 12%;
+        animation-name: more-desc-of-presence-block-closed2;
+        animation-timing-function: ease-out;
+        animation-duration: 300ms;
+        margin-top: 140%;
+      }
+      @keyframes more-desc-of-presence-block-closed2 {
+        0% {
+          opacity: 1;
+          visibility: visible;
+        }
+        100% {
+          opacity: 0;
+          visibility: hidden;
+        }
+      }
+    }
+    
+    
+    
+  

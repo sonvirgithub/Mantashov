@@ -1,0 +1,140 @@
+.connect-text:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+}
+.connect-text:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.connect-text:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+.contact-for-question:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+}
+.contact-for-question:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+
+.contact-for-question:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+.join-from-contacts-text:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+}
+.join-from-contacts-text:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+
+.join-from-contacts-text:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+  font-weight: 700;
+}
+
+.contacts-for-join {
+  margin-top: 5.5vh;
+  padding: 1vw 2vw 1.4vw 3.1vw;
+  display: flex;
+  justify-content: space-between;
+  background: #232222;
+  width: 100%;
+}
+.connect-and-contacts-texts {
+  width: 62%;
+}
+.connect-text {
+  margin-top: 9px !important;
+  font-size: 1vw;
+  line-height: 1.4vw;
+}
+.contact-for-question {
+  font-size: 1vw;
+  line-height: 1.3vw;
+  margin-top: 5px !important;
+  /* width: 32.5vw; */
+}
+.join-from-contacts {
+  padding: 2vw 2.8vw;
+  background: #333333;
+  height: fit-content;
+  text-align: center;
+}
+.join-from-contacts-text {
+  font-size: 1.5vw;
+  line-height: 1.4vw;
+}
+
+.contacts-component {
+  width: 42.7vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .contacts-for-join {
+    padding: 7.2vw 12.1vw;
+    display: block !important;
+  }
+  .connect-text {
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+  .contact-for-question {
+    font-size: 3.9vw;
+    line-height: 4.6vw;
+    width: 100%;
+  }
+  .join-from-contacts {
+    height: 16.9vw;
+    padding: 5.6vw 0;
+    margin-top: 20px;
+  }
+  .join-from-contacts-text {
+    font-size: 5vw;
+    line-height: 6vw;
+  }
+  .connect-and-contacts-texts {
+    width: 100%;
+  }
+  .contacts-component {
+    width: 100%;
+    margin-bottom: 14.4vw;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 1024px) {
+  .contacts-for-join {
+    display: flex !important;
+    padding: 3vw 5vw;
+  }
+  .connect-and-contacts-texts {
+    width: 62%;
+  }
+  .connect-text {
+    font-size: 3vw;
+    line-height: 6vw;
+  }
+  .contact-for-question {
+    font-size: 2vw;
+    line-height: 2.6vw;
+    width: 38vw;
+  }
+  .join-from-contacts {
+    height: 14vw;
+    padding: 4vw 9vw;
+  }
+  .join-from-contacts-text:lang(ru) {
+    font-size: 2.5vw;
+  }
+  .join-from-contacts-text:lang(am) {
+    font-size: 3vw;
+  }
+  .join-from-contacts-text:lang(en) {
+    font-size: 4vw;
+  }
+  .join-from-contacts:lang(ru) {
+    padding: 4vw;
+  }
+  .join-from-contacts:lang(am) {
+    padding: 4vw 6vw;
+  }
+}
+
+@media (orientation: portrait) and (max-width: 1024px) {
+}
