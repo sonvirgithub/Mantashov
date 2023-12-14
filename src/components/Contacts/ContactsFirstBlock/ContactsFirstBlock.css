@@ -1,0 +1,104 @@
+.second-contact-item:lang(am){
+  font-family: Montserratarm-Semi-Bold;
+}
+.second-contact-item:lang(en){
+  font-family: Helvetica-Neue-Bold;
+}
+.second-contact-item:lang(ru){
+  font-family: "Helvetica-Neue-Bold",Arial,sans-serif;
+}
+.first-contact:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+}
+.first-contact:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.first-contact:lang(ru) {
+  font-family: "Helvetica-Neue-Bold",Arial,sans-serif;
+}
+.first-contact {
+  width: 183px;
+  line-height: 17px;
+  color: #c5c5c5;
+  padding-right: 18px;
+  -webkit-line-clamp: 3;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+}
+
+.second-contact {
+  font-family: Helvetica-Neue-Bold;
+  width: 185px;
+  height: 51px;
+}
+
+.second-contact-item {
+  line-height: 17px;
+  color: #c5c5c5;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+}
+
+.first-contact-and-second-contact {
+  display: flex;
+  justify-content: initial;
+}
+
+.three-contact-and-four-contact:lang(am) {
+  width: 30vw;
+}
+
+.three-contact:lang(am) {
+  width: 39vw;
+}
+
+@media only screen and (max-width: 414px) {
+  .first-contact {
+    line-height: 14px;
+    width: 160px;
+    padding-right: 0;
+  }
+  .second-contact-item {
+    line-height: 14px;
+  }
+
+  .first-contact-and-second-contact {
+    justify-content: space-between;
+    height: 42px;
+  }
+
+  .second-contact {
+    width: 160px;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1023px) {
+  .first-contact {
+    line-height: 2.8vw;
+    width: 33vw;
+    font-size: 2vw !important;
+    height: fit-content;
+  }
+  .first-contact:lang(am) {
+  
+    width: 36vw;
+  
+  }
+  .second-contact-item {
+    line-height: 2.8vw;
+    font-size: 2vw !important;
+  }
+  .second-contact {
+    width: 37vw;
+  }
+  .first-contact-and-second-contact {
+    justify-content: space-between;
+  }
+}

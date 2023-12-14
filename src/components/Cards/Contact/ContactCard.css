@@ -1,0 +1,174 @@
+.cont-address:lang(am) {
+  font-family: Montserratarm-Medium;
+}
+.cont-address:lang(en) {
+  font-family: Helvetica-Neue-Medium;
+}
+.cont-address:lang(ru) {
+  font-family: "Helvetica-Neue-Medium", Arial, sans-serif;
+}
+
+.working-hours:lang(am) {
+  font-family: Montserratarm-Bold;
+}
+.working-hours:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.working-hours:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.working-days:lang(am) {
+  font-family: Montserratarm-Bold;
+}
+.working-days:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.working-days:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.phone-contact:lang(am) {
+  font-family: Montserratarm-Bold;
+}
+.phone-contact:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.phone-contact:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.timezone:lang(am) {
+  font-family: Montserratarm-Bold;
+}
+.timezone:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.timezone:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.more-contacts-texts:lang(am),
+.more-link:lang(am) {
+  font-family: Montserratarm-Bold;
+}
+.more-contacts-texts:lang(en),
+.more-link:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.more-contacts-texts:lang(ru),
+.more-link:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.contacts-card-container {
+  margin-top: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  padding: 4vw 0 3.6vw 0;
+}
+
+.card-data-container {
+  text-align: center;
+}
+
+.cont-arrow {
+  object-fit: cover;
+  margin: 0 auto 0.9vw auto;
+}
+.contact-arrow {
+  width: 1.5vw;
+  height: 1.8vw;
+}
+
+.cont-address {
+  font-size: 2.1vw;
+  line-height: 2.7vw;
+  color: #242424;
+}
+
+.working-hours-container {
+  margin-top: 3.7vw;
+}
+
+.phone-and-timezone {
+  margin: 2vw 0;
+}
+
+.working-hours,
+.phone-contact {
+  font-size: 2.5vw;
+  line-height: 3vw;
+  font-family: Helvetica-Neue-Medium !important;
+}
+
+.working-days,
+.timezone {
+  color: #c4c4c4;
+  font-size: 1vw;
+  line-height: 1.3vw;
+  padding-top: 0.5vw;
+}
+
+.more-contacts-texts {
+  font-size: 0.83vw;
+  line-height: 1vw;
+  color: #787878;
+}
+
+.more-link {
+  color: #7b61ff;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contacts-card-container {
+    margin-top: 9.7vw;
+    padding: 17vw 0 18.6vw 0;
+  }
+
+  .cont-arrow {
+    object-fit: cover;
+    margin: 0 auto 7.2vw auto;
+  }
+  .contact-arrow {
+    width: 7vw;
+    height: 8.5vw;
+  }
+
+  .cont-address {
+    font-size: 10vw;
+    line-height: 12vw;
+  }
+
+  .working-hours-container {
+    margin-top: 13.3vw;
+  }
+
+  .working-hours,
+  .phone-contact {
+    font-size: 6.8vw;
+    line-height: 8vw;
+  }
+
+  .working-days,
+  .timezone {
+    font-size: 5vw;
+    line-height: 6vw;
+    padding-top: 2vw;
+  }
+
+  .more-contacts-texts {
+    font-size: 3.8vw;
+    line-height: 4.6vw;
+  }
+
+  .phone-and-timezone {
+    margin: 14.5vw 0;
+  }
+  .more-contacts-texts:lang(am) {
+    font-size: 3vw;
+  }
+}

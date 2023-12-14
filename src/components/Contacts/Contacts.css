@@ -1,0 +1,74 @@
+.contacts {
+    /* margin-top: 60px;
+    display: flex;
+    justify-content: space-between; */
+    /* margin-top: 60px; */
+  
+}
+
+/* .first-contact {
+    width: 183px;
+    line-height: 17px;
+    color: #C5C5C5;
+    padding-right: 18px;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+
+}
+
+.second-contact {
+    font-family: Helvetica-Neue-Bold;
+    width: 185px;
+    height: 51px;
+  
+}
+
+.second-contact-item {
+    line-height: 17px;
+    color: #C5C5C5;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+
+}
+
+.three-contact {
+    width: 125px;
+    line-height: 17px;
+    color: #C5C5C5;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+}
+
+.four-contact {
+    line-height: 17px;
+    color: #C5C5C5;
+    width: 90px;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+}
+
+.first-contact-and-second-contact {
+    display: flex;
+}
+
+.three-contact-and-four-contact {
+    right: 150px;
+    width: 235px;
+    height: 51px;
+} */

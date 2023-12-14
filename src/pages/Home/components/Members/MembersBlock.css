@@ -1,0 +1,197 @@
+.members-title:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+}
+.members-title:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.members-title:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.become-a-member-btn:lang(am) {
+  font-family: Helvetica-Neue-Bold;
+}
+.become-a-member-btn:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.become-a-member-btn:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.who-are-members:lang(am) {
+  font-family: Montserratarm-Regular;
+  /* line-height: 1.4vw; */
+}
+.who-are-members:lang(en) {
+  font-family: Helvetica-Neue-Regular;
+}
+.who-are-members:lang(ru) {
+  font-family: "Helvetica-Neue-Regular", Arial, sans-serif;
+}
+
+.description-text:lang(am) {
+  font-family: Montserratarm-Regular;
+  /* font-size: 0.75vw !important; */
+}
+.description-text:lang(en) {
+  font-family: Helvetica-Neue-Regular;
+}
+.description-text:lang(ru) {
+  font-family: "Helvetica-Neue-Regular", Arial, sans-serif;
+}
+
+.member-block-container {
+  margin: 40px 0 40px 0;
+  width: 100%;
+  padding: 129px 0 132px 75px;
+}
+
+.ml-5 {
+  margin-left: 26%;
+}
+
+.title-and-btn {
+  display: flex;
+  align-items: center;
+}
+
+.members-title {
+  text-transform: capitalize;
+  font-size: 42px;
+  line-height: 50.12px;
+}
+
+.become-a-member-btn {
+  height: fit-content;
+  width: fit-content;
+  margin-left: 53px;
+  padding: 0.8vw 2.6vw;
+}
+
+.become-a-member-text {
+  font-size: 0.8vw;
+  line-height: 1vw;
+}
+
+.plus-icon {
+  vertical-align: text-top;
+  margin-left: 26px;
+}
+
+.who-are-members-container {
+  width: 20%;
+  margin-top: 22px;
+  margin-bottom: 73px;
+}
+
+.who-are-members {
+  font-size: 1vw;
+  line-height: 1.3vw;
+}
+
+.description-container {
+  width: 26.5%;
+  margin-left: 308px;
+  margin-top: -35px;
+}
+
+.description-text {
+  line-height: 19.09px;
+  /* text-transform: lowercase; */
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1024px) {
+  .member-block-container {
+    padding: 14.4% 9.6% 15.4% 9.6%;
+  }
+  .title-and-btn {
+    display: block;
+  }
+
+  .become-a-member-btn {
+    margin-left: 0;
+    margin-top: 5%;
+  }
+
+  .ml-5 {
+    margin-left: 0;
+  }
+
+  .who-are-members-container {
+    margin-top: 5%;
+  }
+
+  .who-are-members {
+    line-height: 5vw;
+    width: 66.8vw;
+    font-size: 4.3vw;
+  }
+
+  .description-container {
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 66.8vw;
+    position: inherit !important;
+  }
+
+  .description-text {
+    line-height: 4.4vw;
+    position: inherit !important;
+    font-size: 2.8vw !important;
+  }
+
+  .members-title {
+    font-size: 8.4vw;
+    line-height: 10vw;
+  }
+  .become-a-member-text {
+    line-height: 4.8vw !important;
+    font-size: 3.2vw !important;
+  }
+  .members-title {
+    font-size: 8vw;
+    line-height: 10vw;
+  }
+  .become-a-member-btn {
+    padding: 3.1vw 12vw;
+  }
+  .speakers-block-desc {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .plus-icon {
+    vertical-align: unset;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1919px) {
+  .member-block-container {
+    padding: 5.7% 0 6.8% 4%;
+  }
+
+  .members-title {
+    font-size: 2.2vw;
+  }
+
+  .become-a-member-btn {
+    margin-left: 2%;
+  }
+
+  .plus-icon {
+    margin-left: 14px;
+  }
+  .ml-5 {
+    margin-left: 23%;
+  }
+  .who-are-members-container {
+    margin-top: 0.7%;
+    margin-bottom: 4%;
+  }
+
+  .description-text {
+    line-height: 1vw;
+    font-size: 0.85vw !important;
+    width: 31vw;
+  }
+}

@@ -1,0 +1,307 @@
+.mobile-app-block-header:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+}
+.mobile-app-block-header:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.mobile-app-block-header:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+.mobile-app-description:lang(am) {
+  font-family: Montserratarm-Medium;
+}
+.mobile-app-description:lang(en) {
+  font-family: Helvetica-Neue-Medium;
+}
+.mobile-app-description:lang(ru) {
+  font-family: "Helvetica-Neue-Medium", Arial, sans-serif;
+}
+
+.text1:lang(am) {
+  font-family: Montserratarm-Medium;
+}
+.text1:lang(en) {
+  font-family: Helvetica-Neue-Medium;
+}
+.text1:lang(ru) {
+  font-family: "Helvetica-Neue-Medium", Arial, sans-serif;
+}
+.find-app-text:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+}
+.find-app-text:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.find-app-text:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.text2:lang(am) {
+  font-family: Montserratarm-Medium;
+}
+.text2:lang(en) {
+  font-family: Helvetica-Neue-Medium;
+}
+
+.text2:lang(ru) {
+  font-family: "Helvetica-Neue-Medium", Arial, sans-serif;
+}
+
+.mobile-app-block-container {
+  height: fit-content;
+  padding: 6.2% 8% 61px 8%;
+  width: 100%;
+  border-top: 1px solid #1b1b1b;
+}
+
+.mobile-app-block-header {
+  color: #fffcfc;
+  font-size: 62px;
+  line-height: 75.7px;
+  text-align: center;
+}
+.app-description-container {
+  width: 51%;
+  margin: 20px auto 7% auto;
+}
+.app-screenshots-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.mobile-app-description {
+  line-height: 21.98px;
+  text-align: center;
+}
+.app-event-description-container {
+  margin: auto 0;
+  text-align: center;
+}
+.description-and-img-container {
+  display: flex;
+}
+.desc1 {
+  height: 39%;
+}
+.desc2 {
+  height: 26%;
+}
+.app-event-description {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+}
+.stores-for-app-container {
+  margin-top: 7%;
+  margin-left: 2%;
+}
+.find-app-text {
+  padding-left: 20px;
+  width: 14%;
+  line-height: 17.09px;
+  height: 34px;
+}
+.stores-for-app {
+  display: flex;
+  margin-top: 20px;
+}
+.store-for-app {
+  height: 53.34px;
+  width: 180px;
+}
+.google-play-logo {
+  margin-left: 20px;
+}
+.imgs-and-texts {
+  display: flex;
+  justify-content: space-between;
+}
+.screenshot-container {
+  width: 30%;
+  height: 78%;
+  object-fit: cover;
+}
+.screenshot {
+  width: 100%;
+  height: 100%;
+}
+.text1,
+.text2 {
+  writing-mode: vertical-rl;
+  display: inline-block;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  transform: rotate(180deg);
+  text-align: center;
+}
+.text1 {
+  height: 56%;
+}
+.text2 {
+  height: 30%;
+}
+.app-store,
+.google-play {
+  cursor: pointer;
+}
+.screenshot-text {
+  margin-right: 1.2%;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1919px) {
+  .text2 {
+    height: 30%;
+    font-size: 1vw !important;
+  }
+  .app-description-container {
+    width: 53%;
+    margin: 1% auto 7% auto;
+  }
+  .mobile-app-description {
+    font-size: 1vw !important;
+    line-height: 1.2vw;
+  }
+  .mobile-app-block-header {
+    font-size: 3.3vw;
+  }
+  .find-app-text {
+    width: 14vw;
+    font-size: 0.75vw !important;
+  }
+  .screenshot {
+    width: 86%;
+  }
+  .text1 {
+    height: 33%;
+    font-size: 0.9vw !important;
+  }
+  .store-for-app {
+    width: 73%;
+    height: 90%;
+  }
+  .google-play-logo {
+    margin-left: -20%;
+  }
+}
+@media only screen and (max-width: 499px) {
+  .mobile-app-block-container {
+    padding: 117px 20px 119px 20px;
+  }
+  .mobile-app-block-header {
+    font-size: 36px;
+    line-height: 42.96px;
+  }
+
+  .app-description-container {
+    width: 95%;
+    width: 100%;
+  }
+
+  .mobile-app-description {
+    line-height: 21.48px;
+    text-align: center;
+    font-family: Helvetica-Neue-Medium !important;
+    font-weight: 600;
+  }
+  .app-screenshots-container {
+    display: block;
+  }
+  .screenshot-container {
+    margin-top: 60px;
+    width: 100%;
+  }
+  .screenshot-text {
+    display: none;
+  }
+  .description-and-img-container {
+    display: block;
+  }
+
+  .stores-for-app-container {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .find-app-text {
+    font-family: Helvetica-Neue-Medium !important;
+    font-weight: 600;
+    line-height: 16.71px;
+    height: 33px;
+    overflow: hidden;
+    width: 65%;
+  }
+  .store-for-app {
+    height: 49.54px;
+    width: 172px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .screenshot-text {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .mobile-app-block-container {
+    padding: 117px 20px 119px 20px;
+  }
+  .mobile-app-block-header {
+    font-size: 36px;
+    line-height: 42.96px;
+  }
+
+  .app-description-container {
+    width: 95%;
+    width: 100%;
+  }
+  .text1,
+  .text2 {
+    font-size: 14px !important;
+  }
+  .mobile-app-description {
+    line-height: 21.48px;
+    text-align: center;
+    font-family: Helvetica-Neue-Medium !important;
+    font-weight: 600;
+  }
+  .screenshot-container {
+    margin-top: 60px;
+  }
+
+  .description-and-img-container {
+    display: block;
+  }
+
+  .stores-for-app-container {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .find-app-text {
+    font-family: Helvetica-Neue-Medium !important;
+    font-weight: 600;
+    line-height: 16.71px;
+    height: 33px;
+    overflow: hidden;
+    width: 65%;
+  }
+  .stores-for-app-container {
+    /* padding: ; */
+    margin: 9.7vw 0 0 0;
+  }
+  .store-for-app {
+    width: 100%;
+  }
+  .app-store,
+  .google-play {
+    width: 47.3%;
+  }
+  .google-play-logo {
+    margin-left: 0;
+  }
+  .google-play {
+    margin-left: 4.8vw;
+  }
+}

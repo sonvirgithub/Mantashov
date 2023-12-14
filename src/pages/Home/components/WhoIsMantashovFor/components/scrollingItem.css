@@ -1,0 +1,103 @@
+.font-family-auto-scroll:lang(am) {
+  font-family: Montserratarm-Semi-Bold;
+}
+.font-family-auto-scroll:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.font-family-auto-scroll:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.scrolling-content {
+  margin-left: 90px;
+  width: 340px;
+  height: 589px;
+  overflow: hidden;
+}
+
+.scrolling-content .scroll {
+  padding: 20px 0;
+  position: relative;
+  width: 100%;
+}
+
+.scrolling-item-container {
+  background: #0e0e0e;
+  border-radius: 15px;
+  padding: 26px 36px 25px 35px;
+}
+
+.sc-item-title {
+  font-size: 32px;
+  line-height: 39px;
+  word-break: break-word;
+  /* height: 78px; 
+  overflow: hidden; */
+}
+
+.sc-item-text {
+  font-size: 22px;
+  line-height: 27px;
+  height: 54px;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 414px) {
+  .scrolling-content {
+    margin-left: 0;
+    margin-top: 4.5vh;
+    width: 82.1vw;
+    height: 65.7vh;
+    overflow: hidden;
+  }
+
+  /* .scrolling-content .scroll {
+    height: 22.6vh;
+    position: relative;
+    width: 100%;
+  } */
+  .scrolling-content .scroll {
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+  }
+
+  .scrolling-item-container {
+    background: #0e0e0e;
+    border-radius: 15px;
+    padding: 2.9vh 8.6vw 2.7vh 8.4vw;
+    /* padding: 26px 36px 25px 35px; */
+  }
+
+  .sc-item-title {
+    font-size: 3.5vh;
+    line-height: 4.3vh;
+    /* height: 8.6vh;
+    overflow: hidden; */
+    word-break: break-word;
+  }
+
+  .sc-item-text {
+    font-size: 2.4vh;
+    line-height: 3vh;
+    /* height: 6vh;
+    overflow: hidden; */
+  }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 899px) {
+  .scrolling-content {
+    margin-left: 0;
+    margin-top: 4.5vh;
+    width: 63vw;
+    height: 65.7vh;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+  .scrolling-item-container {
+    background: #0e0e0e;
+    border-radius: 15px;
+    padding: 2.9vh 2.6vw 2.7vh 2.4vw;
+  }
+}

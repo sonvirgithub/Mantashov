@@ -1,0 +1,110 @@
+.stories-page-header:lang(am) {
+   font-family: Montserratarm-Medium;
+}
+.stories-page-header:lang(en) {
+     font-family: Helvetica-Neue-Medium;
+}
+
+.stories-page-header:lang(ru) {
+  font-family: "Helvetica-Neue-Medium",Arial,sans-serif;
+}
+
+
+
+.stories-page-container {
+  background: #fafafa;
+  width: 100%;
+  height: fit-content;
+  /* margin-top: 40px; */
+  padding: 175px 0 69px 0;
+}
+
+.stories-page-header {
+  line-height: 51.28px;
+  margin-left: 24% !important;
+  padding-bottom: 60px;
+}
+
+.stories-block-text-container {
+  margin-left: 600px;
+  position: absolute;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.stories-block-text {
+  line-height: 25.64px;
+}
+
+.story-empty-item {
+  padding: 10%;
+}
+
+.stories-className {
+  margin-left: 23.4vw;
+}
+
+.stories-block-text {
+ 
+  text-align: left;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1024px) {
+  .stories-page-header {
+    line-height: 8.6vw;
+    font-size: 7.2vw !important;
+    text-align: center;
+    margin-left: 0 !important;
+    padding-bottom: 7.2vw;
+  }
+  .storiesList {
+    margin-left: 60px;
+  }
+  .story-empty-item {
+    padding: 0px;
+  }
+  .stories-page-container {
+    padding: 14.4vw 0 14.4vw 8vw;
+  }
+  .stories-block-text-container {
+    margin-left: 61px;
+    margin-right: auto;
+    position: inherit;
+    margin-top: 21px;
+    width: 58.8vw;
+  }
+  .stories-block-text {
+    font-size: 3.2vw !important;
+    line-height: 3.8vw;
+  }
+  .stories-className {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1250px) {
+  .story-empty-item {
+    padding: 2%;
+  }
+  .stories-page-header {
+    line-height: 8.6vw;
+    font-size: 7.2vw !important;
+    /* text-align: center; */
+    margin-left: 6% !important;
+  }
+  /* .storiesList {
+    margin-left: 60px;
+  } */
+}
+
+
+@media  screen and (min-width: 1024px)  {
+  .stories-block-text-container {
+    margin-left: 30vw;
+  }
+  .stories-block-text {
+ 
+    text-align: left;
+    width: 65vw;
+  }
+}

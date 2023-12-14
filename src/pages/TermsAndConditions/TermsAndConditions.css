@@ -1,0 +1,30 @@
+.terms-page-container {
+    padding: 154px 160px 120px 160px;
+  }
+  
+  .terms-header {
+    text-align: center;
+    font-size: 64px;
+    line-height: 115px;
+    padding-bottom: 74px;
+    
+  }
+  
+  .terms-description {
+    color: #6e6e73;
+    line-height: 30px;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .terms-page-container {
+      padding: 110px 15px 119px 15px;
+    }
+  
+    .terms-header {
+      text-align: center;
+      font-size: 38px;
+      line-height: 45px;
+      padding-bottom: 30px;
+    }
+  }
+  

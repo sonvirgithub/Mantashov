@@ -1,0 +1,140 @@
+.share-content-title:lang(am) {
+  font-family: Montserratarm-Bold;
+}
+.share-content-title:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.share-content-title:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+.one-link-for-share:lang(am) {
+  font-family: Montserratarm-Bold;
+}
+.one-link-for-share:lang(en) {
+  font-family: Helvetica-Neue-Bold;
+}
+.one-link-for-share:lang(ru) {
+  font-family: "Helvetica-Neue-Bold", Arial, sans-serif;
+}
+
+.text-for-links:lang(am) {
+  font-family: Montserratarm-Medium;
+}
+.text-for-links:lang(en) {
+  font-family: Helvetica-Neue-Medium;
+}
+.text-for-links:lang(ru) {
+  font-family: "Helvetica-Neue-Medium", Arial, sans-serif;
+}
+
+.share-content {
+  width: 42.3vw;
+  padding: 1.25vw 4.3vw 1.25vw 3.1vw;
+}
+
+.share-content-title {
+  font-size: 1vw;
+  line-height: 1.1vw;
+}
+.one-link-for-share {
+  font-size: 0.8vw;
+  line-height: 1vw;
+  color: #acadb3;
+}
+.links-for-share-container {
+  margin-top: 0.5vw;
+  width: 100%;
+}
+
+.links-for-share {
+  width: 15.7vw;
+  padding-top: 10px;
+}
+.one-link-container {
+  margin-bottom: 10px;
+}
+
+.icon-and-text {
+  display: flex;
+  width: 6.7vw;
+  cursor: pointer;
+}
+
+.text-for-links {
+  color: rgba(166, 166, 166, 0.8);
+  font-size: 11px;
+  line-height: 13px;
+  margin-left: 8px !important;
+}
+
+.share-content-for-news {
+  background: #f5f5f5;
+}
+.share-content-for-event {
+  background: #101010;
+}
+
+.share-info {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .share-content {
+    padding: 7.2vw 7.2vw 9.1vw 7.2vw;
+    width: 100%;
+  }
+  .links-for-share {
+    flex-wrap: wrap !important;
+    width: 30%;
+  }
+  .links-for-share div:last-child {
+    padding-right: 11% !important;
+  }
+
+  .share-content-title {
+    font-size: 3.9vw;
+    line-height: 4.6vw;
+  }
+  .one-link-for-share {
+    font-size: 2.9vw;
+    line-height: 3.9vw;
+  }
+
+  .links-for-share-container {
+    margin-top: 3.6vw;
+  }
+  .links-for-share {
+    padding-top: 0px;
+    width: 38.7vw;
+  }
+  .icon-and-text {
+    width: 19.7vw;
+  }
+  .one-link-for-share {
+    word-break: break-word;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 1024px) {
+  .share-content-for-event {
+    padding: 3.2vw 4.2vw 5.1vw 4.2vw;
+  }
+  .share-content-title {
+    font-size: 2.9vw;
+    line-height: 3.6vw;
+  }
+
+  .links-for-share-container {
+    margin-top: 1.6vw;
+  }
+  .links-for-share {
+    width: 42vw;
+  }
+  .one-link-for-share {
+    font-size: 1.9vw;
+    line-height: 2.9vw;
+  }
+  .icon-and-text {
+    width: 10vw;
+  }
+}

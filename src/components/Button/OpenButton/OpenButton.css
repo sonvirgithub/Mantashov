@@ -1,0 +1,46 @@
+.open-btn {
+  background: #69d97c;
+  border-radius: 20px;
+  padding: 12px 27px 12px 27px;
+  width: fit-content;
+  height: fit-content;
+  letter-spacing: -0.408px;
+  color: #242426;
+  font-family: Helvetica Neue;
+  font-size: 17px;
+  line-height: 22px;
+  /* cursor: pointer; */
+}
+
+.button-text {
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.41px;
+}
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+  .open-btn {
+    padding: 2.4vw 5.4vw;
+    border-radius: 12px;
+  }
+  .button-text {
+    font-size: 3vw;
+    line-height: 4vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1919px) {
+  .open-btn {
+    border-radius: 15px;
+    padding: 4% 9% 4% 9%;
+  }
+
+  .button-text {
+    font-size: 0.95vw;
+    line-height: 1.2vw;
+    font-family: Helvetica-Neue-Medium !important;
+  }
+
+  .event-name-and-desc {
+    width: 20vw !important;
+  }
+}

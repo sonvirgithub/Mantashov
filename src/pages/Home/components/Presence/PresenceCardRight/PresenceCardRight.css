@@ -1,0 +1,256 @@
+
+
+.presence-card-right-city:lang(am) {
+  font-family: Montserratarm-Medium;
+}
+
+.presence-card-right-city:lang(en) {
+  font-family: Helvetica-Neue-Medium;
+}
+.presence-card-right-city:lang(ru) {
+  font-family: "Helvetica-Neue-Medium",Arial,sans-serif;
+}
+
+.more-btn:lang(am) {
+  font-family: Montserratarm-Medium;
+}
+.more-btn:lang(en) {
+  font-family: Helvetica-Neue-Medium;
+}
+.more-btn:lang(ru) {
+  font-family: "Helvetica-Neue-Medium",Arial,sans-serif;
+}
+
+.presence-card-right {
+  width: 690px;
+  height: 670px;
+  background: #0F0F0F;
+  border-radius: 20px;
+  padding: 80px 0 36px;
+}
+
+.presence-card-right-city {
+  font-size: 42px;
+  line-height: 51px;
+  padding-top: 26px;
+}
+
+.presence-card-right-text {
+  line-height: 20px;
+  padding-top: 11px;
+  font-family: Helvetica-Neue-Regular !important;
+}
+.more-btn {
+  background: none;
+  color: #4f35ff;
+  font-size: 16px ;
+}
+
+.presence-card-right-desc {
+  text-align: center;
+}
+
+.arrow-right-icon {
+  width: 29px;
+  height: 35px;
+}
+
+
+
+.presence-card-right-images {
+  width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 43px;
+
+}
+
+.presence-card-right-component {
+  width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.presence-card-right-more {
+  line-height: 20px;
+  text-align: center;
+  padding-top: 31px;
+
+}
+
+.more-btn {
+  background: none;
+  color: #4f35ff;
+  font-size: 16px ;
+}
+.z-index3 {
+  z-index: 3 !important;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 849px) {
+  .presence-card-right {
+      width: 74.8vw;
+      height: auto;
+      padding: 9.66% 0 9.66% 0;
+      /* margin-top: 124px; */
+      margin-top: 18%;
+      
+
+  }
+  .arrow-right-icon {
+      width: 9.6vw;
+      height: 9.6vw;
+  }
+  .presence-card-right-city {
+      font-size: 5.2vw;
+      line-height: 6.2vw;
+  }
+  .presence-card-right-text {
+      font-size: 2.8vw !important;
+      line-height: 3.4vw;
+  }
+  .presence-card-right-images {
+      width: 67vw;
+      margin-top: 7.2%;
+  }
+  .presence-card-right-img1 {
+      height: 56vw;
+      width: 28vw;
+  }
+  .presence-card-right-img2 {
+      height: 56vw;
+      width: 35vw;
+      object-fit: cover;
+      border-radius: 20px;
+  }
+  .presence-card-right-more {
+      line-height: 4vw;
+      font-size: 4.2vw !important;
+      text-align: left;
+      margin-top: 30px;
+      padding-left: 27px;
+  }
+  .more-btn {
+      font-size: 4.2vw !important;
+  }
+
+}
+
+
+@media only screen and (min-width: 850px) and (max-width: 1024px) {
+  .presence-card-right {
+      width: 34.5vw;
+      padding: 4.16% 0 1.87% 0;
+      height: max-content;
+  }
+  .presence-card-right-img1 {
+      width: 9.5vw;
+      object-fit: cover;
+  }
+  .presence-card-right-img2 {
+      width: 17.5vw;
+      border-radius: 20px;
+
+  }
+  .presence-card-right-images {
+      margin-top: 3.23%;
+      width: 28vw;
+  }
+  .arrow-right-icon {
+      width: 1.45vw;
+      height: 1.75vw;
+  }
+  .presence-card-right-city {
+      font-size: 2.1vw;
+      line-height: 2.55vw;
+      padding-top: 1.3%;
+  }
+  .presence-card-right-text {
+      line-height: 2vw;
+      padding-top: 0.5%;
+      font-size: 0.95vw !important;
+  }
+  .presence-card-right-more,.more-btn {
+      padding-top: 1.6%;
+      line-height: 2vw;
+      font-size: 0.95vw !important;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1919px) {
+  
+  .presence-card-right {
+      width: 34.5vw;
+      padding: 4.16% 0 1.87% 0;
+      height: max-content;
+  }
+  .presence-card-right-img1 {
+      width: 9.5vw;
+      object-fit: cover;
+  }
+  .presence-card-right-img2 {
+      width: 17.5vw;
+      border-radius: 20px;
+
+  }
+  .presence-card-right-images {
+      margin-top: 3.23%;
+      width: 28vw;
+  }
+  .arrow-right-icon {
+      width: 1.45vw;
+      height: 1.75vw;
+  }
+  .presence-card-right-city {
+      font-size: 2.1vw;
+      line-height: 2.55vw;
+      padding-top: 1.3%;
+  }
+  .presence-card-right-text {
+      line-height: 2vw;
+      padding-top: 0.5%;
+      font-size: 0.95vw !important;
+  }
+  .presence-card-right-more, .more-btn {
+      padding-top: 1.6%;
+      line-height: 2vw;
+      font-size: 0.95vw !important;
+  }
+ 
+}
+
+
+/* @media  screen and (min-width: 3000px){
+  
+  .presence-card-right {
+    width: 39vw;
+    height: 43vw;
+    padding: 3.4vw 0 3.3vw;
+  }
+  .presence-card-right-img1 {
+    width: 11vw;
+    object-fit: cover;
+}
+.presence-card-right-img2 {
+  width: 20vw;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.presence-card-right-images {
+  width: 32vw;
+  margin-top: 0 !important;
+}
+.arrow-presence-card {
+  width: 3vw;
+}
+.presence-card-right-city {
+  font-size: 2.1vw;
+  line-height: 2.55vw;
+  padding-top: 3%;
+}
+.presence-card-right-text, .presence-card-right-more, .more-btn {
+  line-height: 3vw !important;
+  font-size: 1.2vw !important;
+}
+
+} */

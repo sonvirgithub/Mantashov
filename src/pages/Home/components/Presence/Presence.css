@@ -1,0 +1,143 @@
+.all {
+  position: relative;
+  width: 75vw;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mobile-presence-card{
+  position: relative;
+}
+
+
+.presence-block-title:lang(am) {
+  font-family: Montserratarm-Medium;
+  font-size: 2.5vw;
+}
+.presence-block-title:lang(en) {
+  font-family: Helvetica-Neue-Medium;
+}
+.presence-block-title:lang(ru) {
+  font-family: "Helvetica-Neue-Medium",Arial,sans-serif;
+}
+
+.presence-block-text:lang(am) {
+  font-family: Montserratarm-Medium;
+}
+.presence-block-text:lang(en) {
+ font-family: Helvetica-Neue-Medium;
+}
+.presence-block-text:lang(ru) {
+  font-family: "Helvetica-Neue-Medium",Arial,sans-serif;
+ }
+
+.presence-block {
+  background: #000000;
+  padding: 152px 0 120px;
+  border-top: 1px solid #1b1b1b;
+}
+
+.presence-block-title {
+  font-size: 62px;
+  line-height: 76px;
+}
+
+.presence-block-text {
+  line-height: 22px;
+  width: 570px;
+  /* font-family: Helvetica-Neue-Medium !important; */
+}
+
+.presence-title-and-text {
+  width: 570px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.presence-block-first-and-second-content {
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 849px) {
+  .presence-block-title {
+    font-size: 7.2vw;
+    line-height: 8.6vw;
+    width: auto;
+  }
+  .presence-title-and-text {
+    width: 66.8vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .presence-block {
+    padding: 14.5% 0 12.8% 0;
+  }
+
+  .presence-block-text {
+    line-height: 4.4vw;
+    width: 72.8vw;
+    font-size: 3.6vw !important;
+  }
+  .presence-block-first-and-second-content {
+    width: 75vw;
+    margin-top: -7%;
+    display: block !important;
+  }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 1919px) {
+  .presence-block-first-and-second-content {
+    width: 75vw;
+    margin-top: 3%;
+  }
+  .presence-block-text {
+    line-height: 22px;
+    width: 34vw;
+    font-size: 1.1vw !important;
+  }
+  .presence-title-and-text {
+    width: 34vw;
+  }
+  .presence-block-title {
+    font-size: 3.2vw;
+  }
+  .presence-block-first-and-second-content {
+    display: flex !important;
+    margin-top: 8%;
+  }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 1025px) {
+  .presence-block-first-and-second-content {
+    display: flex !important;
+    margin-top: 8%;
+  }
+}
+@media  screen and (min-width: 1920px) {
+  .all {
+    width: 1420px !important;
+  }
+  .more-presence-block-imgs {
+    margin-top: 195px;
+}
+.large-desc-presence-card {
+  
+  margin-left: 6%;
+}
+}
+
+/* @media  screen and (min-width: 3000px)  {
+.all {
+ 
+  width: 80vw !important;
+}
+.presence-block-first-and-second-content {
+  width: 80vw !important;
+}
+} */

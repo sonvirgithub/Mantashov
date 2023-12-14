@@ -1,0 +1,147 @@
+.presence-card-bottom {
+  width: 690px;
+  height: 670px;
+  background: #0f0f0f;
+  border-radius: 20px;
+  padding: 80px 0 36px;
+}
+
+.presence-card-bottom-city {
+  font-size: 42px;
+  line-height: 51px;
+  padding-top: 26px;
+}
+
+.presence-card-bottom-text {
+  line-height: 20px;
+  padding-top: 11px;
+}
+
+.presence-card-bottom-desc {
+  text-align: center;
+}
+
+.arrow-bottom-icon {
+  width: 29px;
+  height: 35px;
+}
+
+.presence-card-bottom-images {
+  width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 43px;
+}
+
+.presence-card-bottom-component {
+  width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.presence-card-bottom-more {
+  line-height: 20px;
+  text-align: center;
+  padding-top: 31px;
+}
+
+.z-index4 {
+  z-index: 4 !important;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 849px) {
+  .presence-card-bottom-img1 {
+    height: 56vw;
+    width: 28vw;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .presence-card-bottom-img2 {
+    height: 56vw;
+    width: 35vw;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .presence-card-bottom {
+    margin-top: 25.66%;
+    width: 74.8vw;
+    height: auto;
+    padding: 9.66% 0 9.66% 0;
+  }
+
+  .opacity-00 {
+    opacity: 0;
+    animation-name: change-opacity;
+    animation-timing-function: ease-out;
+    animation-duration: 0.5s;
+  }
+  @keyframes change-opacity {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  .opacity11 {
+    opacity: 1;
+    animation-name: change-opacity1;
+    animation-timing-function: ease-out;
+    animation-duration: 600ms;
+  }
+  @keyframes change-opacity1 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+@media only screen and (min-width: 850px) and (max-width: 1024px) {
+  .presence-card-bottom {
+    width: 34.5vw;
+    padding: 4.16% 0 1.87% 0;
+    height: max-content;
+  }
+
+  .presence-card-bottom-img1 {
+    width: 12vw;
+    border-radius: 20px;
+  }
+  .presence-card-bottom-img2 {
+    width: 15vw;
+    border-radius: 20px;
+  }
+}
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1919px) {
+  .presence-card-bottom {
+    width: 34.5vw;
+    padding: 4.16% 0 1.87% 0;
+    height: max-content;
+  }
+
+  .presence-card-bottom-img1 {
+    width: 12vw;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .presence-card-bottom-img2 {
+    width: 15vw;
+    border-radius: 20px;
+  }
+}
+
+/* @media  screen and (min-width: 3000px) {
+  .presence-card-bottom-img1 {
+    width: 14vw;
+    
+  }
+  .presence-card-bottom-img2 {
+    width: 17vw;
+    
+  }
+} */
