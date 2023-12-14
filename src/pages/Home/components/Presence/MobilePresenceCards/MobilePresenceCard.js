@@ -25,11 +25,11 @@ function MobilePresenceCard({
   useEffect(() => {
     if (moreDescPresenceCard2) {
       setLargeDescription(
-        translatedData.locations ? translatedData.locations[1].description : ""
+        translatedData.locations ? translatedData.locations[1].description : "27 businessmen are members of our union in Los Angeles.  Thus, the uniting platform of progressive businessmen is gradually increasing. Therefore, Armenians working in different parts of the world get to know each other and give priority to cooperation with Armenians in their various initiatives."
       );
     } else {
       setLargeDescription(
-        translatedData.locations ? translatedData.locations[0].description : ""
+        translatedData.locations ? translatedData.locations[0].description : "Businessmen united, preferring the strengthening of the Armenian factor in two Russian cities, Moscow and Krasnodar. Continuous learning, shared values make collaboration easy, and even the most complex and ambitious programs are feasible. Currently, about 60 businessmen are united in two Russian clubs."
       );
     }
   }, [moreDescPresenceCard2, translatedData]);
